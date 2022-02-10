@@ -24,8 +24,12 @@ Here is a snippet of the data after performing PCA:
 <img width="273" alt="Screen Shot 2022-02-10 at 1 14 45 PM" src="https://user-images.githubusercontent.com/59425631/153471393-407ca977-67fd-4e7d-8645-974a13e1c0a2.png">
 
 
+## Deciding the Number of Centroids in K-Means Algorithm
+
+To choose the number of expected clusters, the Elbow curve was plotted and the number is picked where the elbow shape is located on the graph as show in the below figure. Following the previously mentioned process, the number was chosen to be four.  
 
 
+![elbow_curve](https://user-images.githubusercontent.com/59425631/153475187-9f66fdf8-94d8-4655-a7f7-1b3330aeeead.png)
 
 
 
