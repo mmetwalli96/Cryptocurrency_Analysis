@@ -6,6 +6,8 @@ Use unsupervised learning to group cryptocurrencies. The following steps were fo
 
 The first step to begin this analysis is the data preparation. Here the column <b><i>IsTrading</i></b> was removed, the coin names were dropped, the raws containing NaN values were excluded, he data was standardized, and finally the categorical data were transformed to numerical ones by <b><i>get_dummies</i></b> function. 
 
+Here is the piece of code used to perform data preparation:
+
 ```
 # Remove the "IsTrading" column.
 crypto_df = crypto_df[['CoinName', 'Algorithm', 'ProofType', 'TotalCoinsMined', 'TotalCoinSupply']]
