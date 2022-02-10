@@ -4,7 +4,7 @@ Use unsupervised learning to group cryptocurrencies. The following steps were fo
 
 ## Data Preprocessing for Principal Component Analysis
 
-The first step to begin this analysis is the data preparation. Here the column <b><i>IsTrading</i></b> was removed, the coin names were dropped, the raws containing NaN values were excluded, and finally the categorical data were transformed to numerical ones by <b><i>get_dummies</i></b> function. 
+The first step to begin this analysis is the data preparation. Here the column <b><i>IsTrading</i></b> was removed, the coin names were dropped, the raws containing NaN values were excluded, he data was standardized, and finally the categorical data were transformed to numerical ones by <b><i>get_dummies</i></b> function. 
 
 ```
 # Remove the "IsTrading" column.
