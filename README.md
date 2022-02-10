@@ -35,7 +35,7 @@ To choose the number of expected clusters, the Elbow curve was plotted and the n
 
 <img width="979" alt="Screen Shot 2022-02-10 at 2 00 40 PM" src="https://user-images.githubusercontent.com/59425631/153478102-23bb4b24-e30a-4df0-a942-550d33dbe248.png">
 
-After training the model, it was able to separate the data nicely into four classes as shown in the above figure. Upon further inspection of the clustered data, it is possible to say that the algorithm significantly favoured the grouping on the column name <b><i>ProofType</i></b>. The snippet of the data below can confirm this deduction.  
+After training the model, it was able to separate the data nicely into four classes as shown in the above figure. Upon further inspection of the clustered data, it is possible to say that the algorithm significantly favoured the grouping based on the column name <b><i>ProofType</i></b>. The snippet of the data results below can confirm this deduction.  
 
 <img width="720" alt="Screen Shot 2022-02-10 at 2 01 30 PM" src="https://user-images.githubusercontent.com/59425631/153478200-fda26031-ba62-4a90-95ce-4948f015277b.png">
 
