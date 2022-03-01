@@ -4,7 +4,7 @@ Use unsupervised learning to group cryptocurrencies. The following steps were fo
 
 ## Data Preprocessing for Principal Component Analysis
 
-The first step to begin this analysis is the data preparation. Here are the processes which was followed in the analysis: 
+The first step to begin this analysis is the data preparation. Here are the processes which were followed in the analysis: 
 
 - The column <b><i>IsTrading</i></b> was removed.
 - The column holding coin names was dropped. 
